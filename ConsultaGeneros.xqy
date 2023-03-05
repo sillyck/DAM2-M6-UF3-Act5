@@ -5,7 +5,7 @@
 <body>
 <table border="1">
 {
-for $peliculasGen in doc("Peliculas2017.xml")//pelicula[//genero = "documental" or //genero = "drama" or //genero = "familiar"]
+for $peliculasGen in doc("Peliculas2017.xml")//pelicula[generos/genero = "adulto" or generos/genero = "crimen"]
 
 let $titol := $peliculasGen/titulo/text()
 let $any := $peliculasGen/fecha/text()

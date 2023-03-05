@@ -72,9 +72,9 @@ public class main {
 			String stringGen = "";
 			for (int i = 0; i < cont - 1; i++) {
 				if (i + 1 != cont - 1) {
-					stringGen = stringGen +"//genero = \"" + gen.get(opcions[i]) + "\" or ";
+					stringGen = stringGen +"generos/genero = \"" + gen.get(opcions[i]) + "\" or ";
 				} else {
-					stringGen = stringGen +"//genero = \"" + gen.get(opcions[i]) + "\"";
+					stringGen = stringGen +"generos/genero = \"" + gen.get(opcions[i]) + "\"";
 				}
 			}
 
