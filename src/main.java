@@ -43,7 +43,7 @@ public class main {
 		int cont = 0;
 
 		while (seleccionat != 0) {
-			System.out.println("##########\nMENU\n##########");
+			System.out.println("#####################\n\tMENU\n#####################");
 			System.out.println("0 -> Sortir");
 			for (int i = 1; i < gen.size(); i++) {
 
